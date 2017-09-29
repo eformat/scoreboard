@@ -16,7 +16,7 @@
     "bs-sync": "browser-sync start --server --port 8080 --index index.html --browser 'google-chrome' --files '*.html' 'build'",
     "build": "npm run build-js & npm run build-css",
     "watch": "npm run watch-ify & npm run watch-css",
-    "start": "npm run watch-ify & npm run watch-css & npm run bs-sync"
+    "start": "npm run watch-js & npm run watch-css & npm run bs-sync"
   },
   "Dependencies": {
 
